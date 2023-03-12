@@ -4,6 +4,7 @@ import HandymanIcon from '@mui/icons-material/Handyman';
 import BadgeIcon from '@mui/icons-material/Badge';
 import ContactEmergencyIcon from '@mui/icons-material/ContactEmergency';
 
+/* eslint-disable import/prefer-default-export */
 export const navbarItems = [
   {
     id: 0,
