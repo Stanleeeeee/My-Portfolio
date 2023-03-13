@@ -8,8 +8,11 @@ function Intro() {
       <Typography sx={styles.h4} variant="h4">
         Hello! Welcome,
       </Typography>
+      <Typography sx={styles.h3} variant="h3">
+        I&apos;m
+      </Typography>
       <Typography sx={styles.h1} variant="h1">
-        I`&apos;m Ezeoke Stanley Ifeanyi
+        Ezeoke Stanley Ifeanyi
       </Typography>
       <Typography sx={styles.h3} variant="h3">
         Full-Stack Web Developer

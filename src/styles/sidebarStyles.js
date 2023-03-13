@@ -10,14 +10,14 @@ export const styles = {
       color: 'rgba(255, 255, 255, 0.7)',
     },
     '& .Mui-selected': {
-      color: 'red',
+      color: '#8b0000',
     },
   },
 
   icon: {
-    color: '#8B0000',
+    color: '#8b0000',
     fontWeight: '700',
-    fontSize: '200px',
+    fontSize: '2.6rem',
     minWidth: 'unset',
   },
   listItem: {
@@ -27,12 +27,12 @@ export const styles = {
     '@media (max-height: 900px)': {
       marginBottom: '0',
     },
-    '&:hover': { background: '#4169E1' },
+    '&:hover': { background: '#4169e1' },
   },
 
   listItemButton: {
     display: 'flex',
-    color: '#8B0000',
+    color: '#8b0000',
     justifyContent: 'space-between',
     '@media (max-width: 600px)': {
       justifyContent: 'center',
@@ -58,10 +58,5 @@ export const styles = {
     mr: 2,
     display: { lg: 'none' },
     position: 'fixed',
-  },
-
-  menuIcon: {
-    color: '#fff',
-    fontSize: '35px',
   },
 };
