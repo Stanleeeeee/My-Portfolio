@@ -1,12 +1,12 @@
 import { Outlet } from 'react-router-dom';
 import { Box } from '@mui/material';
-import Navbar from './components/Navbar/Navbar';
 import { styles } from './styles/mainContainerStyles';
+import Content from './components/contents/Content';
 
 function App() {
   return (
     <Box id="App">
-      <Navbar />
+      <Content />
       <Box sx={styles}>
         <Outlet />
       </Box>
