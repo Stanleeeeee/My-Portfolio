@@ -6,7 +6,7 @@ export const styles = {
     '& .MuiDrawer-paper': {
       width: 220,
       boxSizing: 'border-box',
-      backgroundColor: '#C0C0C0',
+      backgroundColor: 'gray',
       color: 'rgba(255, 255, 255, 0.7)',
     },
     '& .Mui-selected': {
@@ -15,17 +15,21 @@ export const styles = {
   },
 
   icon: {
-    color: '#8b0000',
-    fontWeight: '700',
-    fontSize: '2.6rem',
+    color: '#fff',
+    fontWeight: '800',
+    fontSize: '1.6rem',
     minWidth: 'unset',
+    justifyContent: 'center',
   },
+
   listItem: {
     padding: '10px 20px',
     transition: '0.8s',
     marginBottom: '20px',
     '@media (max-height: 900px)': {
       marginBottom: '0',
+      overflow: 'hidden',
+      display: 'block',
     },
     '&:hover': { background: '#4169e1' },
   },
@@ -34,8 +38,9 @@ export const styles = {
     display: 'flex',
     color: '#8b0000',
     justifyContent: 'space-between',
-    '@media (max-width: 600px)': {
+    '@media (max-width: 600px) and (max-width: 1200px)': {
       justifyContent: 'center',
+      color: '#fff',
     },
   },
 
@@ -58,5 +63,10 @@ export const styles = {
     mr: 2,
     display: { lg: 'none' },
     position: 'fixed',
+  },
+
+  menuIcon: {
+    color: '#fff',
+    fontSize: '32px',
   },
 };

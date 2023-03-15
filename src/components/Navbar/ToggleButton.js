@@ -1,9 +1,9 @@
-/** import { Box } from '@mui/material';
+import { Box } from '@mui/material';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import { styles } from '../../styles/sidebarStyles';
 
-const ToggleButton = ({ handleDrawerToggle }) => {
+function ToggleButton({ handleDrawerToggle }) {
   return (
     <Box sx={styles.toggleContainer}>
       <IconButton
@@ -17,7 +17,6 @@ const ToggleButton = ({ handleDrawerToggle }) => {
       </IconButton>
     </Box>
   );
-};
+}
 
-export default ToggleButton
-*/
+export default ToggleButton;

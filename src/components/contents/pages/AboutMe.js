@@ -31,7 +31,7 @@ function AboutMe() {
           <br />
           <br />
           During my time in the program, I gained essential technical and soft
-          skills, for example, in&nbsp;
+          skills, for example in&nbsp;
           <span>
             HTML
           </span>
