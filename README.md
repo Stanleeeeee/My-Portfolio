@@ -15,7 +15,7 @@
 ## Live Demo 
 
 [Netlify]
-- https://deploy-preview-3--stan-weatherapp.netlify.app/
+- https://
 
 ## Getting Started
 
