@@ -15,7 +15,7 @@
 ## Live Demo 
 
 [Netlify]
-- https://
+- https://deploy-preview-1--ezeoke-stanley-portfolio.netlify.app
 
 ## Getting Started
 
