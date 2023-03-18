@@ -123,6 +123,7 @@ function ContactMe() {
                     padding: '10px',
                   }}
                   id="name"
+                  /* eslint-disable react/jsx-props-no-spreading */
                   {...register('name')}
                 />
                 <Typography sx={styles.errorMessage} variant="body2">
