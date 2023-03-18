@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import PropTypes from 'prop-types';
 import Box from '@mui/material/Box';
 import CssBaseline from '@mui/material/CssBaseline';
 import Drawer from '@mui/material/Drawer';
@@ -13,6 +14,10 @@ function Content(props) {
   const handleDrawerToggle = () => setMobileOpen(!mobileOpen);
 
   const container = window !== undefined ? () => window().document.body : undefined;
+
+  Content.propTypes = {
+    window: PropTypes.isRequired,
+  };
 
   return (
     <Box>
