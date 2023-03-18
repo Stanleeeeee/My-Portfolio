@@ -16,7 +16,7 @@ function AboutMe() {
           <br />
           I&apos;m a&nbsp;
           <span>
-            full-stack web developer&nbsp;
+            FULL-STACK Web Developer&nbsp;
           </span>
           from Nigeria.
           <br />
