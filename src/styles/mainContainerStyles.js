@@ -1,5 +1,6 @@
 import background from '../assets/header-bg1.webp';
 
+/* eslint-disable import/prefer-default-export */
 export const styles = {
   backgroundImage: `url(${background})`,
   backgroundRepeat: 'no-repeat',
