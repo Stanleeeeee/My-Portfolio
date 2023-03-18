@@ -1,3 +1,4 @@
+/* eslint-disable import/prefer-default-export */
 export const styles = {
   width: '70vw',
   maxWidth: '1500px',
